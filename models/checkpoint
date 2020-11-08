@@ -1,0 +1,2 @@
+model_checkpoint_path: "trained_model_stock_lstm_000672.SZ_20201102"
+all_model_checkpoint_paths: "trained_model_stock_lstm_000672.SZ_20201102"

@@ -1,0 +1,6 @@
+# exclude database/configuration file
+
+parameters.json
+stockanalysis.pbix
+*.xls
+*.csv
