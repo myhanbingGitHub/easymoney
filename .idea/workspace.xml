@@ -4,19 +4,12 @@
     <list default="true" id="62a18755-f2f2-4cf3-8fa8-d87dd2aa6c21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ec60f4c4-7eb0-460b-9348-18a87f643266.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ec60f4c4-7eb0-460b-9348-18a87f643266.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAnalysis/MacroData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataAnalysis/MacroData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAnalysis/analysis models design.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataAnalysis/analysis models design.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model_stock_lstm_multiple_elements.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Model_stock_lstm_multiple_elements.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model_stock_lstm_multiple_elements_individual_direction_predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Model_stock_lstm_multiple_elements_individual_direction_predict.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model_stock_lstm_multiple_elements_individual_stock_optimized_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Model_stock_lstm_multiple_elements_individual_stock_optimized_2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TUShare/dataCollectionFromTUshare.py" beforeDir="false" afterPath="$PROJECT_DIR$/TUShare/dataCollectionFromTUshare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymoney/ChromeMiddleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/easymoney/ChromeMiddleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymoney/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/easymoney/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymoney/get_todolist.py" beforeDir="false" afterPath="$PROJECT_DIR$/easymoney/get_todolist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymoney/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/easymoney/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easymoney/spiders/easymoney_spd.py" beforeDir="false" afterPath="$PROJECT_DIR$/easymoney/spiders/easymoney_spd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stockanalysis.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/stockanalysis.pbix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trained_model_stock_lstm_multiple_elements/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model_stock_lstm_multiple_elements/saved_model.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trained_model_stock_lstm_multiple_elements/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model_stock_lstm_multiple_elements/variables/variables.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trained_model_stock_lstm_multiple_elements/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model_stock_lstm_multiple_elements/variables/variables.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_preparation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_washing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_washing.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +18,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/easymoney$dataCollectionFromTUshare.coverage" NAME="dataCollectionFromTUshare Coverage Results" MODIFIED="1601175932867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/easymoney/TUShare" />
     <SUITE FILE_PATH="coverage/easymoney$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1603080264463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/easymoney" />
+    <SUITE FILE_PATH="coverage/easymoney$Main.coverage" NAME="Main Coverage Results" MODIFIED="1605755335153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reinforcement_2" />
     <SUITE FILE_PATH="coverage/easymoney$easymoney_spd.coverage" NAME="easymoney_spd Coverage Results" MODIFIED="1600232809796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/easymoney/spiders" />
     <SUITE FILE_PATH="coverage/easymoney$dataCollectionFromTUshare__1_.coverage" NAME="dataCollectionFromTUshare (1) Coverage Results" MODIFIED="1603958157602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TUShare" />
     <SUITE FILE_PATH="coverage/easymoney$individual_stock_predict_lstm.coverage" NAME="individual_stock_predict_lstm Coverage Results" MODIFIED="1604631469915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easymoney$start_spider.coverage" NAME="start_spider Coverage Results" MODIFIED="1603959548897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/easymoney" />
     <SUITE FILE_PATH="coverage/easymoney$FinancePerformance.coverage" NAME="FinancePerformance Coverage Results" MODIFIED="1601190421193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataAnalysis" />
+    <SUITE FILE_PATH="coverage/easymoney$dataCollectionFromTUshare.coverage" NAME="dataCollectionFromTUshare Coverage Results" MODIFIED="1606212871651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TUShare" />
+    <SUITE FILE_PATH="coverage/easymoney$getdata.coverage" NAME="getdata Coverage Results" MODIFIED="1605495383980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reinforcement_1" />
+    <SUITE FILE_PATH="coverage/easymoney$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1605608459542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reinforcement_2" />
+    <SUITE FILE_PATH="coverage/easymoney$Q_run.coverage" NAME="Q_run Coverage Results" MODIFIED="1605262108395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reinforcement_1" />
+    <SUITE FILE_PATH="coverage/easymoney$data_preparation_manystock.coverage" NAME="data_preparation_manystock Coverage Results" MODIFIED="1606531312558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easymoney$test.coverage" NAME="test Coverage Results" MODIFIED="1603076310367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TUShare" />
   </component>
   <component name="DatabaseView">
@@ -67,10 +65,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/individual_stock_predict_lstm.py">
+        <entry file="file://$PROJECT_DIR$/data_preparation_manystock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1569">
-              <caret line="108" column="24" lean-forward="true" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+            <state relative-caret-position="858">
+              <caret line="87" column="54" lean-forward="true" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +86,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>result</find>
+      <find>cost_basis</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>result_pre</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -97,7 +107,6 @@
         <option value="ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/kpi_category.sql" />
         <option value="$PROJECT_DIR$/DataAnalysis/FinancePerformance.py" />
         <option value="$PROJECT_DIR$/easymoney/start_spider.py" />
-        <option value="ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_daily.sql" />
         <option value="$PROJECT_DIR$/easymoney/settings.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec60f4c4-7eb0-460b-9348-18a87f643266/console.sql" />
         <option value="$PROJECT_DIR$/easymoney/items.py" />
@@ -107,12 +116,20 @@
         <option value="$PROJECT_DIR$/TUShare/test.py" />
         <option value="$PROJECT_DIR$/easymoney/test.py" />
         <option value="$PROJECT_DIR$/easymoney/get_todolist.py" />
-        <option value="$PROJECT_DIR$/TUShare/dataCollectionFromTUshare.py" />
         <option value="ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_analysis.sql" />
         <option value="$PROJECT_DIR$/easymoney/pipelines.py" />
         <option value="$PROJECT_DIR$/easymoney/spiders/easymoney_spd.py" />
         <option value="$PROJECT_DIR$/easymoney/ChromeMiddleware.py" />
         <option value="$PROJECT_DIR$/individual_stock_predict_lstm.py" />
+        <option value="$PROJECT_DIR$/reinforcement_1/getdata.py" />
+        <option value="$PROJECT_DIR$/reinforcement_1/Q_run.py" />
+        <option value="$PROJECT_DIR$/reinforcement_2/stock_env.py" />
+        <option value="$PROJECT_DIR$/reinforcement_2/get_data.py" />
+        <option value="$PROJECT_DIR$/reinforcement_2/Main.py" />
+        <option value="ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_daily.sql" />
+        <option value="ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_historic.sql" />
+        <option value="$PROJECT_DIR$/TUShare/dataCollectionFromTUshare.py" />
+        <option value="$PROJECT_DIR$/data_preparation_manystock.py" />
       </list>
     </option>
   </component>
@@ -120,7 +137,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1096" />
-    <option name="height" value="1814" />
+    <option name="height" value="1855" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,6 +158,12 @@
               <item name="easymoney" type="462c0819:PsiDirectoryNode" />
               <item name="easymoney" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="easymoney" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easymoney" type="462c0819:PsiDirectoryNode" />
+              <item name="easymoney" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -151,7 +174,8 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -169,8 +193,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.individual_stock_predict_lstm">
-    <configuration name="dataCollectionFromTUshare (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.data_preparation_manystock">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="easymoney" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reinforcement_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reinforcement_2/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataCollectionFromTUshare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="easymoney" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,6 +230,72 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TUShare/dataCollectionFromTUshare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_preparation_manystock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="easymoney" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_preparation_manystock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="easymoney" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reinforcement_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reinforcement_2/get_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="easymoney" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reinforcement_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reinforcement_1/getdata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,78 +326,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="start_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="easymoney" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/easymoney" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easymoney/start_spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="easymoney" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/easymoney" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easymoney/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="easymoney" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TUShare" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TUShare/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.start_spider" />
-        <item itemvalue="Python.dataCollectionFromTUshare (1)" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.data_preparation_manystock" />
+        <item itemvalue="Python.dataCollectionFromTUshare" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.get_data" />
+        <item itemvalue="Python.getdata" />
       </list>
     </recent_temporary>
   </component>
@@ -336,11 +383,21 @@
       <workItem from="1604453189096" duration="28609000" />
       <workItem from="1604578671643" duration="4901000" />
       <workItem from="1604626388857" duration="5733000" />
+      <workItem from="1605250213577" duration="9324000" />
+      <workItem from="1605495068673" duration="3987000" />
+      <workItem from="1605579136355" duration="13482000" />
+      <workItem from="1605669864799" duration="627000" />
+      <workItem from="1605755305199" duration="216000" />
+      <workItem from="1605757609650" duration="32000" />
+      <workItem from="1606100147633" duration="7792000" />
+      <workItem from="1606189447077" duration="4452000" />
+      <workItem from="1606210651981" duration="5745000" />
+      <workItem from="1606530386912" duration="4572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213900000" />
+    <option name="totallyTimeSpent" value="264129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,15 +409,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1096" height="1814" extended-state="6" />
+    <frame x="-8" y="-8" width="1096" height="1855" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.086872585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06853282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73880595" weight="0.30160618" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.73880595" visible="true" weight="0.08246225" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26002166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,14 +428,14 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.26119402" side_tool="true" weight="0.9544962" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.5634328" weight="0.37919825" />
+      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.5634328" weight="0.14518002" />
       <window_info anchor="bottom" id="SQL Generator" order="14" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.2084942" />
+      <window_info anchor="right" id="Database" order="5" weight="0.22683398" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -409,63 +466,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easymoney/user_agent_middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_basic.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/kpi_category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_company">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/kpi_category.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easymoney/TUShare/dataCollectionFromTUshare.py" />
-    <entry file="file://$PROJECT_DIR$/DataAnalysis/FinancePerformance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easymoney/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easymoney/datacollection.py" />
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_daily.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/easymoney/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -527,52 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_historic">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_washing.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/cpi">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/ppi">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/money">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/gdp">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_daily">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -591,13 +550,6 @@
       </provider>
     </entry>
     <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_margin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/index_historic">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -643,23 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easymoney/spiders/easymoney_spd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easymoney/get_todolist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easymoney/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -680,7 +615,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_kpi">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reinforcement_1/Q_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/individual_stock_predict_lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reinforcement_1/getdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/gym/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4233">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/gym/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/217590801/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10845">
+          <caret line="768" column="8" lean-forward="true" selection-start-line="768" selection-start-column="8" selection-end-line="768" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/stable_baselines/common/base_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10245">
+          <caret line="752" column="6" selection-start-line="752" selection-start-column="6" selection-end-line="752" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/stable_baselines/ppo2/ppo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reinforcement_2/stock_env.py" />
+    <entry file="file://$PROJECT_DIR$/reinforcement_2/get_data.py" />
+    <entry file="file://$PROJECT_DIR$/reinforcement_2/Main.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/stable_baselines/deepq/policies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_daily">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/money">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/index_historic">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/index_basic">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_daily.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/gdp">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/cpi">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/ppi">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_historic.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easymoney/get_todolist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easymoney/spiders/easymoney_spd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_daily_kpi">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="ts_code='000001.SZ'" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_historic">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -689,25 +794,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TUShare/dataCollectionFromTUshare.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="167" column="10" selection-start-line="167" selection-end-line="167" selection-end-column="26" />
+        <state relative-caret-position="1644">
+          <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://ec60f4c4-7eb0-460b-9348-18a87f643266/schema/stock/table/stock_kpi">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/individual_stock_predict_lstm.py">
+    <entry file="file://$PROJECT_DIR$/data_preparation_manystock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1569">
-          <caret line="108" column="24" lean-forward="true" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+        <state relative-caret-position="858">
+          <caret line="87" column="54" lean-forward="true" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

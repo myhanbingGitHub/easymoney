@@ -74,11 +74,24 @@ def write_data_stock_historic(stocklist, startdate, enddate):  # 更新股票的
                             asset='E', adj='qfq', freq='D')
             print(stock, " 获取到的总记录数: ", len(df))
             if len(df) > 0:
-                engine_ts.execute("delete from stock_historic where ts_code=' %s' " % stock)
+                # engine_ts.execute("delete from stock_historic where ts_code=' %s' " % stock)
                 df.to_sql('stock_historic', engine_ts, index=False, if_exists='append', chunksize=5000)
                 print(stock, "操作成功！")
         except:
             print("股票%s操作不成功！" % stock)
+
+
+def write_data_stock_historic_kpi(stocklist,strartdate,enddate):
+    pro = ts.pro_api()
+    for stock in stocklist:
+        try:
+            df = pro.daily_basic(ts_code=stock, start_date =strartdate,end_date=enddate)
+            print(stock, " 获取到的总记录数: ", len(df))
+            if len(df)>0:
+                df.to_sql('stock_daily_kpi',engine_ts,index=False,if_exists='append',chunksize=5000)
+                print(stock, "操作成功！")
+        except:
+            print("日行情指标%s操作不成功!" % stock)
 
 
 def write_data_index_historic(indexlist, startdate, enddate):  # 更新指数历史记录
@@ -118,33 +131,33 @@ def get_data(table_name):  # 读取tushare里面的表
 
 def write_data_gdp():
     pro=ts.pro_api()
-    df=pro.cn_gdp(start_q='2015Q1',end_q='2020Q3',fields='quarter,gdp,pi,si,ti')
+    df=pro.cn_gdp(start_q='2006Q1',end_q='2020Q3')  # ,fields='quarter,gdp,pi,si,ti')
     df.to_sql('gdp',engine_ts, index=False, if_exists='append', chunksize=5000)
 
 
 def write_data_cpi():
     pro=ts.pro_api()
-    df=pro.cn_cpi(start_m='201501',end_m='202009',fields='month,nt_val,town_val,cnt_val')
+    df=pro.cn_cpi(start_m='200601',end_m='202010')  # ,fields='month,nt_val,town_val,cnt_val')
     df.to_sql('cpi',engine_ts, index=False, if_exists='append', chunksize=5000)
 
 
 def write_data_ppi():
     pro=ts.pro_api()
-    df=pro.cn_ppi(start_m='201501',end_m='202009',fields='month,ppi_mom,ppi_mp_mom,ppi_mp_qm_mom,ppi_mp_rm_mom,'
-                                                         'ppi_mp_p_mom,ppi_cg_mom,ppi_cg_f_mom,ppi_cg_c_mom,'
-                                                         'ppi_cg_adu_mom,ppi_cg_dcg_mom')
+    df=pro.cn_ppi(start_m='200601',end_m='202010')  # ,fields='month,ppi_mom,ppi_mp_mom,ppi_mp_qm_mom,ppi_mp_rm_mom,'
+                                                      #   'ppi_mp_p_mom,ppi_cg_mom,ppi_cg_f_mom,ppi_cg_c_mom,'
+                                                       #  'ppi_cg_adu_mom,ppi_cg_dcg_mom')
     df.to_sql('ppi',engine_ts, index=False, if_exists='append', chunksize=5000)
 
 
 def write_data_money():
     pro=ts.pro_api()
-    df=pro.cn_m(start_m='201501',end_m='202009',fields='month,m0,m1,m2')
+    df=pro.cn_m(start_m='200601',end_m='202010') # ,fields='month,m0,m1,m2')
     df.to_sql('money',engine_ts, index=False, if_exists='append', chunksize=5000)
 
 
 def write_data_interest():
     pro=ts.pro_api()
-    df=pro.shibor(start_date='20150101',end_date='20200930',fields='date,1y')
+    df=pro.shibor(start_date='20060101',end_date='20201031')  # ,fields='date,1y')
     df.to_sql('interest', engine_ts, index=False, if_exists='append', chunksize=5000)
 
 
@@ -194,11 +207,19 @@ if __name__ == '__main__':
     #       '000010.SZ',
     #       'test',
     # ]
+    sql = "SELECT ts_code FROM stock_basic"
+    df = pd.read_sql_query(sql, engine_ts)
+    stocklist = list(df['ts_code'])
+    write_data_stock_historic(stocklist, '20060101', '20201122')
+    # ----------------------------------------------------------
+    # write_data_stock_daily('20200916')  # 更新当日行情
+    # get_data('daily')
+    # -------循环更新股票历史kpi数据
     # sql = "SELECT ts_code FROM stock_basic"
     # df = pd.read_sql_query(sql, engine_ts)
     # stocklist = list(df['ts_code'])
-    # write_data_stock_historic(stocklist, '20050101', '20201026')
-
+    # write_data_stock_historic_kpi(stocklist, '20060101', '20201122')
+    # ----------------------------------------
     # write_data_stock_daily('20200916')  # 更新当日行情
     # get_data('daily')
     # --------------循环更新指数历史数据-------------------------
